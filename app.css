@@ -1,0 +1,51 @@
+body {
+    margin: 20px;
+    padding: 2rem;
+    background: linear-gradient(to right, #f3eb53, #e9700d);
+}
+
+div {
+    text-align: center;
+    margin-top: 30px;
+}
+
+h1 {
+    color: rgb(9, 9, 9);
+}
+
+input[type="text"] {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+ul{
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    padding: 10px;
+    background-color: none;
+}
+
+.suggestions {
+    display: block;
+    background-color: linear-gradient(to right, #f3eb53, #e9700d);
+    
+}
+ul.has-suggestions {
+    display: block;
+}
+
+ul:nth-of-type(even):hover {
+    background-color: white;
+}
+
+ul:nth-of-type(odd):hover {
+    background-color: linear-gradient(to right, #f3eb53, #e9700d);
+    transform: scale(1.1);
+    color: white;
+}
